@@ -1,0 +1,85 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Style the body with a background image */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container to hold the form */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #444;
+}
+
+input, select {
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+/* Styling for the submit button */
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Icon inside labels */
+label i {
+    margin-right: 8px;
+}
+
+/* Icon inside the button */
+button i {
+    margin-right: 8px;
+}
